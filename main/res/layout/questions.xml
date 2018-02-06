@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.QuestionsActivity">
+
+        <TextView
+            android:id="@+id/question_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/titleMargin"
+            android:text="@string/question_number"
+            android:textAlignment="center"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scroll_question"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/questionViewHeight"
+            android:layout_below="@id/question_number">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/questionLayoutPadding"
+                android:paddingRight="@dimen/questionLayoutPadding"
+
+                android:text="@string/question"
+                android:textSize="@dimen/questionButtonSize" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scroll_question"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/questionLayoutPadding"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/answer_a"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="clickA"
+                    android:padding="@dimen/buttonScorePadding"
+                    android:text="@string/answerA"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/questionButtonSize" />
+
+                <Button
+                    android:id="@+id/answer_b"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="clickB"
+                    android:padding="@dimen/buttonScorePadding"
+                    android:text="@string/answerB"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/questionButtonSize" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/questionLayoutPadding"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/answer_c"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="clickC"
+                    android:padding="@dimen/buttonScorePadding"
+                    android:text="@string/answerC"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/questionButtonSize" />
+
+                <Button
+                    android:id="@+id/answer_d"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="clickD"
+                    android:padding="@dimen/buttonScorePadding"
+                    android:text="@string/answerD"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/questionButtonSize" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

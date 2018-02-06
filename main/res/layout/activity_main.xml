@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/titleMargin"
+            android:paddingTop="@dimen/questionLayoutPadding"
+            android:text="@string/app_name"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/appNameSize"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_name"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/startButtonMarginTop"
+            android:onClick="startQuiz"
+            android:text="@string/startButton"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/startFinishButtonTextSize"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button"
+            android:layout_margin="@dimen/questionLayoutPadding"
+            android:text="@string/description"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:id="@+id/congratulations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/titleMargin"
+            android:text="@string/congratulations"
+            android:textAlignment="center"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quiz_finished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/congratulations"
+            android:layout_marginTop="@dimen/questionLayoutPadding"
+            android:text="@string/finish"
+            android:textAlignment="center"
+            android:textSize="@dimen/startFinishButtonTextSize"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/score_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quiz_finished"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/titleMargin"
+            android:text="@string/score"
+            android:textAlignment="center"
+            android:textSize="@dimen/startFinishButtonTextSize"
+
+            />
+
+        <Button
+
+            android:id="@+id/button"
+
+            android:layout_width="@dimen/buttonWidth"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/score_view"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/startButtonMarginTop"
+
+            android:layout_marginTop="@dimen/startButtonMarginTop"
+            android:onClick="tryAgain"
+            android:text="@string/try_again"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/startFinishButtonTextSize" />
+    </RelativeLayout>
+
+</ScrollView>

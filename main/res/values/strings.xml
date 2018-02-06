@@ -1,0 +1,75 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TunQuiz</string>
+    <string name="question_number">Question <xliff:g example="1" id="number">%d</xliff:g></string>
+    <string name="answerA"><xliff:g example="Tokyo" id="answerA">%s</xliff:g></string>
+    <string name="answerB"><xliff:g example="Tokyo" id="answerB">%s</xliff:g></string>
+    <string name="answerC"><xliff:g example="Tokyo" id="answerC">%s</xliff:g></string>
+    <string name="answerD"><xliff:g example="Tokyo" id="answerD">%s</xliff:g></string>
+    <string name="question"><xliff:g example="Tokyo" id="question">%s</xliff:g></string>
+    <string name="startButton">Start</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="finish">you finished the Quiz </string>
+    <string name="score">Your Score : <xliff:g example="500" id="score">%d</xliff:g></string>
+    <string name="description">Your first trip to tunisia </string>
+    <string name="try_again">Try Again ? </string>
+
+    <string name="question_1">Welcome to Tunisia ! You finally arrived to Monastir Airport. which president gave it his name and was the first tunisian president ?</string>
+    <string name="question_2">"You decide to start your journey with a visit to the capital city. How is it called ? </string>
+    <string name="question_3">You are feeling a little bit hungry so you take a Taxi ride to a restaurant. but wait, the taxi isn\'t free ! What is the currency used in Tunisia? </string>
+    <string name="question_4">You are now at the restaurant. Which of the following is NOT a traditional tunisian dish </string>
+    <string name="question_5">Just outside Tunis you will find  a city which was once the capital of a great Empire and Rome\'s greatest adversary. What is the name of this city</string>
+    <string name="question_6">You decided to visit Sidi Bou Said, a village located about 20 km from the capital. A law was passed here stating that only two colours could be used to decorate the exterior of the buildings. Which colours are these?</string>
+    <string name="question_7">You made then a long trip to the Sahara Desert, you are now in a large Oasis. This area has been inhabited since before 8000 BC. The Dar Cherait Museum and the Mosque el Farkous are also found here. What is the name of this oasis town?</string>
+    <string name="question_8">In which \"Governorate\" were the opening sequence of \"Star Wars\" filmed ? </string>
+    <string name="question_9"> You leave the desert and head back towards Monastir. On the way, you stop at El Jem, home to a major historical site. What type of Roman building is found here?</string>
+    <string name="question_10">Last Question : How was the tunisian ruler called, before the Republic\'s establishment</string>
+
+    <string name="answer_A_1">Bourguiba</string>
+    <string name="answer_A_2">Sfax</string>
+    <string name="answer_A_3">Dollar</string>
+    <string name="answer_A_4">Couscous</string>
+    <string name="answer_A_5">Utica</string>
+    <string name="answer_A_6">Red and white</string>
+    <string name="answer_A_7">Tozeur</string>
+    <string name="answer_A_8">Tozeur</string>
+    <string name="answer_A_9">Catacombs</string>
+    <string name="answer_A_10">Bey</string>
+
+    <string name="answer_B_1">Mohamed V</string>
+    <string name="answer_B_2">Sousse</string>
+    <string name="answer_B_3">Dirham</string>
+    <string name="answer_B_4">Lablebi</string>
+    <string name="answer_B_5">Cadix</string>
+    <string name="answer_B_6">White and green</string>
+    <string name="answer_B_7">Kebili</string>
+    <string name="answer_B_8">Tataouine</string>
+    <string name="answer_B_9">Colosseum</string>
+    <string name="answer_B_10">Dey</string>
+
+    <string name="answer_C_1">Ibn Khaldoun</string>
+    <string name="answer_C_2">Mehdia</string>
+    <string name="answer_C_3">Tunisian Dinar</string>
+    <string name="answer_C_4">Mloukhya</string>
+    <string name="answer_C_5">Carthage</string>
+    <string name="answer_C_6">White and blue</string>
+    <string name="answer_C_7">Douz</string>
+    <string name="answer_C_8">Gafsa</string>
+    <string name="answer_C_9">Great Fort</string>
+    <string name="answer_C_10">Pacha</string>
+
+    <string name="answer_D_1">2 Pac</string>
+    <string name="answer_D_2">Tunis</string>
+    <string name="answer_D_3">Euro</string>
+    <string name="answer_D_4">Fish and chips</string>
+    <string name="answer_D_5">Lixus</string>
+    <string name="answer_D_6">White and pink</string>
+    <string name="answer_D_7">Gafsa</string>
+    <string name="answer_D_8">Kebili</string>
+    <string name="answer_D_9">Baths</string>
+    <string name="answer_D_10">King</string>
+
+    <string name="right_answer">Good Job  +100 points</string>
+    <string name="wrong_answer">Try Again -15 points</string>
+
+
+</resources>

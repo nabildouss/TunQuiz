@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appNameSize">48sp</dimen>
+    <dimen name="titleMargin">36dp</dimen>
+    <dimen name="titleSize">24sp</dimen>
+    <dimen name="startFinishButtonTextSize">24sp</dimen>
+    <dimen name="questionButtonSize">16sp</dimen>
+    <dimen name="questionViewHeight">150dp</dimen>
+    <dimen name="buttonScorePadding">16dp</dimen>
+    <dimen name="buttonWidth">240dp</dimen>
+    <dimen name="questionLayoutPadding">24dp</dimen>
+    <dimen name="startButtonMarginTop">120dp</dimen>
+    <dimen name="buttonHeight">64dp</dimen>
+
+
+
+</resources>
